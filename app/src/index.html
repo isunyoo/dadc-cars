@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cars - DApps Dev Club</title>
+  </head>
+  <style>
+  </style>
+  <body>
+    <h1>Cars</h1>
+
+    <h2>Queries</h2>
+
+    <!-- add some queries here -->
+    <p>
+      <label for="queryNumCarsButton">numCars</label>
+      <br />
+      <button id="queryNumCarsButton">Query Num Cars</button>
+      <br />
+      <input type="text" id="numCarsOutput" readonly="true" />
+    </p>
+
+    <p>
+      <label for="carIdInput">Car ID</label>
+      <input type="text" id="carIdInput" />
+      <br />
+      <button id="queryCarByIdButton">Query Car By ID</button>
+      <br />
+      <textarea rows="10" cols="20" id="carOutput" readonly="true">
+      </textarea>
+    </p>
+
+    <h2>Actions</h2>
+
+    <!-- add some state changers here -->
+    <p>
+      <label for="colourInput">Colour</label>
+      <input type="text" id="colourInput" />
+      <br />
+      <label for="doorsInput">Doors</label>
+      <input type="number" id="doorsInput" />
+      <br />
+      <button id="addCarButton">Add Car</button>
+    </p>
+
+    <p>
+      <label for="fromCarInput">From Car</label>
+      <input type="number" id="fromCarInput" />
+      <br />
+      <label for="atCarInput">At Car</label>
+      <input type="number" id="atCarInput" />
+      <br />
+      <button id="honkCarButton">Honk Car</button>
+    </p>
+
+    <h2>Events</h2>
+
+    <h3>CarHonk</h3>
+
+    <!-- add event display here -->
+
+    <hr />
+
+    <p>
+      Open the dev tools to view output
+    </p>
+
+    <script src="index.js"></script>
+  </body>
+</html>
